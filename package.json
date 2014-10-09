@@ -1,0 +1,30 @@
+{
+  "name": "scanjs-core",
+  "version": "0.0.2",
+  "description": "Static analysis tool for javascript codebases, core",
+  "main": "scan.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zombie/scanjs-core.git"
+  },
+  "keywords": [
+    "scanjs",
+    "code-analysis",
+    "javascript",
+    "static-analysis"
+  ],
+  "author": "zombie",
+  "license": "MPL",
+  "dependencies": {
+    "acorn": "~0.3.0",
+    "tern": "~0.5.0",
+    "optimist": "~0.5.2",
+    "jszip": "~2.2.0",
+    "node-static": "~0.7.3",
+    "js-beautify":"~1.4.2",
+  },
+  "devDependencies": {
+    "mocha": "*",
+    "chai": "*"
+  },
+}
